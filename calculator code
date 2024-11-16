@@ -1,0 +1,13 @@
+a = float(input("enterr first number:"))
+op = input("enter operator:")
+b = float(input("enterr second number:"))
+if op == "+":
+    print(a+b)
+elif op == "-":
+    print(a-b)
+elif op == "*":
+        print(a*b)
+elif op == "/":
+    print(a/b)
+else:
+    print("invelid operator")
